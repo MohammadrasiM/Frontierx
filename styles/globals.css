@@ -1,8 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 html {
   scroll-behavior: smooth;
+  font-family: "Manrope", sans-serif;
 }
 body {
   background: linear-gradient(
@@ -40,7 +42,7 @@ body {
     @apply cursor-pointer;
   }
   button {
-    @apply rounded-[5px]  uppercase  text-white;
+    @apply rounded-[5px]    text-white;
   }
 }
 
@@ -88,3 +90,38 @@ body {
     background-position: 74% 0%;
   }
 }
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 91px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border: 1px solid rgba(86, 86, 86, 0.5);
+  display: none;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border-radius: 100px;
+  border: 1px solid #565656;
+}
+body::-webkit-scrollbar {
+  width: 6px;
+  background: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  border: 1px solid rgba(86, 86, 86, 0.5);
+  background: transparent;
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border-radius: 100px;
+  border: 1px solid #565656;
+}
+
+/* .scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #c0a0b9;
+} */

@@ -6,7 +6,7 @@ interface InputProps {
 function SearchBox({ hidden, margin }: InputProps) {
   return (
     <div
-      className={`${hidden} md:block xl:w-[40rem]  mt-[${margin}px] lg:w-96`}
+      className={`${hidden} md:block xl:w-[40rem]  mt-[${margin}px] lg:w-96 `}
     >
       <form>
         <label
@@ -16,7 +16,7 @@ function SearchBox({ hidden, margin }: InputProps) {
           Search
         </label>
         <div className="relative">
-          <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none cursor-pointer z-20">
+          <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none cursor-pointer z-20 ">
             <svg
               aria-hidden="true"
               className="w-5 h-5 text-gray-500 dark:text-gray-400 "
@@ -36,7 +36,7 @@ function SearchBox({ hidden, margin }: InputProps) {
           <input
             type="search"
             id="default-search"
-            className="block h-4 bg-[#1F1F1F] p-4 pl-10 w-full text-sm text-gray-500 rounded-lg border border-[#1F1F1F]"
+            className="block h-4 bg-[#1F1F1F] p-4 pl-10 w-full text-sm text-gray-500 rounded-lg border border-[#1F1F1F] focus:border-red-700"
             placeholder="Lorem ipsum"
             required
           />

@@ -16,7 +16,7 @@ function Intruduction() {
       <h1 className="mt-14">Lorem ipsum</h1>
       <div className="flex w-full justify-center mt-4">
         <p>Created by:</p>
-        <p className="text-red-800 ml-2"> Lorem ipsum</p>
+        <p className="text-[#FC364C] ml-2"> Lorem ipsum</p>
       </div>
       <div className="flex w-full justify-center mt-4">
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
