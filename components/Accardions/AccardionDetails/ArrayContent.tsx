@@ -27,7 +27,7 @@ function ArrayContent({
             {content?.map((data: any) => (
               <div
                 key={data.id}
-                className="bg-[#0D0D0D] flex flex-col items-center justify-center col-span-4  rounded-md w-full h-24 border-[2px] border-[#0D0D0D] hover:border-red-700"
+                className="bg-[#0D0D0D] flex flex-col items-center justify-center col-span-12  md:col-span-4 rounded-md w-full h-24 border-[2px] border-[#0D0D0D] hover:border-red-700"
               >
                 <p className="text-[#8E8B8F] text-sm">{data?.thing}</p>
                 <p>{data?.name}</p>
