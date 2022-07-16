@@ -42,9 +42,9 @@ const Accordion = ({ title, content }: AccordionProps) => {
         </h4>
         <div>
           {isOpened ? (
-            <RiArrowUpSLine size={"1rem"} />
+            <RiArrowUpSLine size={"1rem"} className="cursor-pointer" />
           ) : (
-            <RiArrowDownSLine size={"1rem"} />
+            <RiArrowDownSLine size={"1rem"} className="cursor-pointer" />
           )}
         </div>
       </div>

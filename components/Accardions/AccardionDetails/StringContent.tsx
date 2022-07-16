@@ -15,23 +15,23 @@ function StringContent({ contentElement, height, content }: AccordionProps) {
     >
       <p className="p-4 text-sm">{content}</p>
 
-      <div className="mt-6 px-4 flex flex-col mb-12 w-11/12 text-[96%]">
+      <div className="mt-6 px-4 flex flex-col mb-12 w-11/12 text-[96%] text-[#FC364C]">
         <div className="flex items-center  justify-start ">
           <div className="flex gap-3 items-center">
             <RiShareBoxLine size={22} color="white" />
-            <p className="text-[#FC364C]">Lorem ipsum.com</p>
+            <p className="hover:text-white">Lorem ipsum.com</p>
           </div>
           <div className="flex gap-3 items-center ml-8 ">
             <SiDiscord size={22} color="white" />
-            <p className="text-[#FC364C]">@Lorem ipsum</p>
+            <p className="hover:text-white">@Lorem ipsum</p>
           </div>
         </div>
         <div className="flex items-center  justify-start mt-4">
           <div className="flex gap-3 items-center">
             <SiInstagram size={22} color="white" />
-            <p className="text-[#FC364C]">@Lorem ipsum</p>
+            <p className="hover:text-white">@Lorem ipsum</p>
           </div>
-          <div className="flex gap-3 items-center ml-[3.2rem] md:ml-[3.2rem] lg:ml-[3.2rem]">
+          <div className="flex gap-3 items-center ml-[3.2rem] md:ml-[3.2rem] lg:ml-[3.2rem] hover:text-white">
             <SiTwitter size={22} color="white" />
             <p>@Lorem ipsum</p>
           </div>
