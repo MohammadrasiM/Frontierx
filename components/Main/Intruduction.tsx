@@ -9,7 +9,7 @@ function Intruduction() {
         <div className=" w-[98%]">
           <img src="/assets/mainpic.png" alt="mainpic" className="w-full" />
         </div>
-        <div className="absolute w-[8%] left-[46.65%] top-[62%]">
+        <div className="absolute w-[10%] left-[45.75%] top-[64.5%]">
           <Image src={smallface} alt="small face" />
         </div>
       </div>

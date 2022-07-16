@@ -13,7 +13,7 @@ body {
     rgba(58, 39, 63) 47.55%,
     rgba(46, 45, 102) 90.7%
   );
-  /* transform: rotate(-180deg); */
+
   -webkit-animation: AnimationName 10s ease infinite;
   -moz-animation: AnimationName 10s ease infinite;
   -o-animation: AnimationName 10s ease infinite;
@@ -121,7 +121,3 @@ body::-webkit-scrollbar-thumb {
   border-radius: 100px;
   border: 1px solid #565656;
 }
-
-/* .scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #c0a0b9;
-} */
