@@ -22,7 +22,7 @@ function ArrayContent({
       }
     >
       <div className="relative">
-        <div className="absolute mx-[1.2rem] w-[1px] h-[92%] bg-[rgb(86,86,86)]  left-[91.3%] z-[-1] "></div>
+        <div className="absolute mx-[1.2rem] w-[1px] h-[92%] bg-[rgb(86,86,86)]  sm:left-[91.3%]    md:left-[91.7%] lg:left-[91.3%] xl:left-[91.3%] left-[91%] z-[-1] "></div>
         <div className="max-h-80  overflow-y-auto overflow-x-hidden scrollbar mx-[1.2rem] gap-y-2 w-[92%] pb-8 ">
           <div className=" grid grid-cols-12  gap-2   w-[96%]">
             {content?.map((data: any) => (
