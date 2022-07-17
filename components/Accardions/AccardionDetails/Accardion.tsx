@@ -22,10 +22,7 @@ const Accordion = ({ title, content }: AccordionProps) => {
     HandleOpening();
   }, []);
   return (
-    <div
-      onClick={HandleOpening}
-      className="border border-[#0d0d0d] border-opacity-50 mb-8"
-    >
+    <div className="border border-[#0d0d0d] border-opacity-50 mb-8">
       <div
         className={
           "bg-[#0d0d0d] bg-opacity-50  p-8 flex justify-between items-center text-white "
@@ -42,9 +39,17 @@ const Accordion = ({ title, content }: AccordionProps) => {
         </h4>
         <div>
           {isOpened ? (
-            <RiArrowUpSLine size={"1rem"} className="cursor-pointer" />
+            <RiArrowUpSLine
+              size={"1rem"}
+              className="cursor-pointer"
+              onClick={HandleOpening}
+            />
           ) : (
-            <RiArrowDownSLine size={"1rem"} className="cursor-pointer" />
+            <RiArrowDownSLine
+              size={"1rem"}
+              className="cursor-pointer"
+              onClick={HandleOpening}
+            />
           )}
         </div>
       </div>

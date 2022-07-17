@@ -21,7 +21,8 @@ function ArrayContent({
           : `bg-[#0d0d0d] bg-opacity-50 overflow-hidden transition-all duration-200`
       }
     >
-      <div>
+      <div className="relative">
+        <div className="absolute w-[1px] h-[92%] bg-[rgb(86,86,86)] opacity-50 left-[95.3%]"></div>
         <div className="max-h-80 relative overflow-y-auto overflow-x-hidden scrollbar mx-[1.2rem] gap-y-2 w-[92%] pb-8 ">
           <div className=" grid grid-cols-12  gap-2   w-[96%]">
             {content?.map((data: any) => (
